@@ -1,0 +1,58 @@
+.google {
+  text-align: center; 
+  display: flexbox;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.google > input {
+  width: 250px;
+}
+
+.google > h1 {
+  font-family: 'Product Sans', Arial, sans-serif;
+  font-size: 80px;
+}
+
+.google h1 span:nth-child(1) {
+  color: #4285F4; 
+}
+
+.google h1 span:nth-child(2) {
+  color: #DB4437; 
+}
+
+.google h1 span:nth-child(3) {
+color: #F4B400; 
+}
+
+.google h1 span:nth-child(4) {
+  color: #4285F4; 
+}
+
+.google h1 span:nth-child(5) {
+  color: #0F9D58; 
+}
+
+.google h1 span:nth-child(6) {
+  color: #DB4437; 
+}
+
+.google h1 span:nth-child(7) {
+  color: #4285F4; 
+}
+
+.google > h1 > span {
+  letter-spacing: -20px;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.google > .p1 {
+  margin-top: -30px;
+  margin-bottom: 1px;
+}
+
+.google > button {
+  margin-bottom: 20px;
+}
+

@@ -1,0 +1,65 @@
+body{
+            
+    margin: 5px auto;
+    padding: 5px;
+    width: 800px;
+}
+
+.row .col {
+    border-radius: 10px;
+    background-color: burlywood;
+    
+    min-width: 380px;
+    width: 48%;
+    margin: 5px;
+    min-height: 300px;
+}
+.row:last-child .col:last-child {
+    background-color: #F6F2E8;
+}
+
+.class {
+    max-width: 150px;
+    max-height: 50px;
+}
+
+.hello{
+    color: #c2a157;
+    text-shadow: 2px -2px black;
+}
+
+.qAcademico {
+    color: #846d4a;
+    text-shadow: 2px -2px black;
+}
+
+.col > h1 {
+    color: #c2a157;
+    text-shadow: 2px -2px black;
+}
+
+.info {
+    color: #846d4a;
+}
+
+form > span {
+    margin: 40px;
+    font-weight: bold;
+}
+
+form > input {
+    max-width: 150px;
+}
+
+.col > .imagem {
+    max-width: 150px;
+    height: 100px;
+}
+.qualidate {
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.qualidate > span {
+    color: #846d4a;
+}
